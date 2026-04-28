@@ -1,4 +1,5 @@
 import Course from "./Components/Course"
+import Hero from "./Hero Folder/Hero"
 import Navbar from "./Components/Navbar"
 
 
@@ -13,7 +14,7 @@ function App() {
     <>
       <Navbar/>
       <Course/>
-
+      <Hero/>
     </>
   )
 }
