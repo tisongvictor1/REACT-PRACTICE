@@ -1,6 +1,5 @@
 .footer {
   background: #fff3f3;
-  
   color: black;
   padding: 60px 20px 20px;
 }
@@ -37,7 +36,14 @@
   font-size: 13px;
 }
 
-.footer-links li:hover {
+/* ✅ Removes underline and sets black color */
+.footer-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ✅ Hover now correctly targets the <a> tag */
+.footer-links li a:hover {
   color: #f85538;
 }
 

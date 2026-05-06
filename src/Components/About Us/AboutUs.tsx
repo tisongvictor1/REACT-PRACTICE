@@ -1,5 +1,5 @@
 import "./AboutUs.css";
-
+import forex from "../../assets/About Us.jpg"
 const AboutUs = () => {
   return (
     <section className="about">
@@ -10,7 +10,7 @@ const AboutUs = () => {
           <p>
             We are dedicated to teaching forex trading in a simple and practical way.
             Our goal is to help beginners understand the market, develop confidence,
-            and trade with a clear strategy—not guesswork.
+            and trade with a clear strategy not guesswork.
           </p>
           <p>
             We focus on real knowledge: market structure, price action, and proper
@@ -20,8 +20,7 @@ const AboutUs = () => {
 
         <div className="about-col">
           <img 
-            src="https://images.unsplash.com/photo-1559526324-593bc073d938" 
-            alt="Trading setup" 
+            src={forex}  alt="Trading setup" 
           />
         </div>
 

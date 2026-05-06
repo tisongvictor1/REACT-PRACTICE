@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     <section className="why">
       <h1>Why Choose Us</h1>
       <p className="why-intro">
-        We focus on clarity, discipline, and real trading knowledge—not hype.
+        We focus on clarity, discipline, and real trading knowledge not hype.
       </p>
 
       <div className="row">
