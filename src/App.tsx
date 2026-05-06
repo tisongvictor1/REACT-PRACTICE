@@ -1,9 +1,7 @@
-    import { Route, Routes } from "react-router-dom"
 
 
-import HomePage from "./Pages/Home Page/HomePage"
-
-
+import { Route, Routes } from "react-router-dom"
+import HomePage from "./Pages/HomePage/HomePage"
 
 
 function App() {
@@ -12,7 +10,7 @@ function App() {
     <>
     <Routes>
       <Route path="/" element={<HomePage/>}/>
-      {/* <Route path="about" element={<AboutusPage/>}/> */}
+      
 
     </Routes>
     
