@@ -1,20 +1,21 @@
-import Course from "./Components/Course"
-import Hero from "./Hero Folder/Hero"
-import Navbar from "./Components/Navbar"
+    import { Route, Routes } from "react-router-dom"
+
+
+import HomePage from "./Pages/Home Page/HomePage"
+
 
 
 
 function App() {
  
-
-
-
-
   return (
     <>
-      <Navbar/>
-      <Course/>
-      <Hero/>
+    <Routes>
+      <Route path="/" element={<HomePage/>}/>
+      {/* <Route path="about" element={<AboutusPage/>}/> */}
+
+    </Routes>
+    
     </>
   )
 }

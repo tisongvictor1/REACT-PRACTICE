@@ -1,0 +1,35 @@
+.learn-container {
+  min-height: 100vh;
+  background: #0b1220;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+.learn-container h1 {
+  margin-bottom: 40px;
+  font-size: 34px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  color: #22c55e;
+  margin-bottom: 10px;
+}
